@@ -6,6 +6,6 @@ namespace Service.Helper.ApiHelper
     internal class SerachCepViaCep
     {
         public CepModel GetSerachCepViaCep(string cep)
-            => RequestApiHelper.MakeRequest<CepModel>(Method.GET, $"https://viacep.com.br/ws/{cep}/json/", string.Empty, null);
+            => RequestApiHelper.MakeRequest<CepModel>(Method.Get, $"https://viacep.com.br/ws/{cep}/json/", string.Empty, null);
     }
 }

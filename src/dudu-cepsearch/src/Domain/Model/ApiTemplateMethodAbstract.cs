@@ -6,14 +6,14 @@ namespace Domain.Model
 {
     public abstract class ApiTemplateMethodAbstract : IMethodConsumer
     {
-        public IRestRequest RestRequestApi { get; set; }
+        public RestRequest RestRequestApi { get; set; }
         public string EndPoint { get; set; }
         public string Token{ get; set; }
         public Dictionary<string, object> Parameters { get; set; }
         
         public abstract string Consumer();
 
-        public virtual IRestResponse ExecuteRequest(IRestRequest request)
+        public virtual RestResponse ExecuteRequest(RestRequest request)
         {
             var response = new RestClient(EndPoint).Execute(request);
 

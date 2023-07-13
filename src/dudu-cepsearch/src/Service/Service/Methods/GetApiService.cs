@@ -23,9 +23,9 @@ namespace Service.Service.Methods
             if (!string.IsNullOrEmpty(Token))
                 RestRequestApi.AddHeader("Authorization", string.Format("Bearer {0}", Token));
 
-            if (Parameters != null && Parameters.Count > 0)
-                foreach (KeyValuePair<string, object> item in Parameters)
-                    RestRequestApi.AddParameter(item.Key.ToString(), item.Value);
+            //if (Parameters != null && Parameters.Count > 0)
+            //    foreach (KeyValuePair<string, object> item in Parameters)
+            //        RestRequestApi.AddParameter(item.Key.ToString(), item.Value, false);
 
             return ExecuteRequest(RestRequestApi).Content;
         }

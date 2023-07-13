@@ -17,16 +17,16 @@ namespace Service.Service
 
                 switch (method)
                 {
-                    case Method.GET:
+                    case Method.Get:
                         return new ConsumerApiFactory(new GetApiService(method, endPoint, route, parameters)).Execute();
-                    case Method.POST:
-                    case Method.PUT:
-                    case Method.DELETE:
-                    case Method.HEAD:
-                    case Method.OPTIONS:
-                    case Method.PATCH:
-                    case Method.MERGE:
-                    case Method.COPY:
+                    case Method.Post:
+                    case Method.Put:
+                    case Method.Delete:
+                    case Method.Head:
+                    case Method.Options:
+                    case Method.Patch:
+                    case Method.Merge:
+                    case Method.Copy:
                     default:
                         return string.Empty;
                 }
