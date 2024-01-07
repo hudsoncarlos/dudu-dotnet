@@ -5,8 +5,8 @@ Consultar a api viaCep, armazenar os dados retornados no banco e exibir na tela.
 Seguem os requisitos do projeto de teste
  
 .Net 5
-Criar uma tela para o usuário digitar o CEP
+Criar uma tela para o usuï¿½rio digitar o CEP
 Consultar a api viaCep, armazenar os dados retornados no banco de dados e exibir na tela.
  
-Exemplo requisição ViaCep
+Exemplo requisiï¿½ï¿½o ViaCep
 GET: https://viacep.com.br/ws/01001000/json/
