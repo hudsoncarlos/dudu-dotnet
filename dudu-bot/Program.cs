@@ -18,9 +18,9 @@ namespace FaceboolLoginAutomation
             
             var listaContaEscavos = new List<PerfilEscravo>() 
             {
-                new PerfilEscravo() { Id = 1, Login = "poker10ao@gmail.com", Senha = "Senha@123", NomePerfilPatrao = "tisuvax" },
-                new PerfilEscravo() { Id = 2, Login = "poker10ao@gmail.com", Senha = "Senha@123", NomePerfilPatrao = "tisuvax" },
-                new PerfilEscravo() { Id = 3, Login = "poker10ao@gmail.com", Senha = "Senha@123", NomePerfilPatrao = "tisuvax" }
+                new PerfilEscravo() { Id = 1, Login = "poker10ao@gmail.com", Senha = "Ztqk4MVv87835R9d835CgvGsc%jS", NomePerfilPatrao = "tisuvax" },
+                new PerfilEscravo() { Id = 2, Login = "poker10ao@gmail.com", Senha = "Ztqk4MVv87835R9d835CgvGsc%jS", NomePerfilPatrao = "tisuvax" },
+                new PerfilEscravo() { Id = 3, Login = "poker10ao@gmail.com", Senha = "Ztqk4MVv87835R9d835CgvGsc%jS", NomePerfilPatrao = "tisuvax" }
             };
 
             foreach (var item in listaContaEscavos)
